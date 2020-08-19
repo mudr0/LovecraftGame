@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
 public class DisappearingState : State
 {
     [SerializeField] private Gun _gun;

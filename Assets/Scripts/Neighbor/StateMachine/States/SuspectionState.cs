@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Neighbor))]
 public class SuspectionState : State
 {
     [SerializeField] private float _delay;

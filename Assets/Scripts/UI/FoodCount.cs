@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
+[RequireComponent(typeof(TMP_Text))]
 public class FoodCount : MonoBehaviour
 {
     [SerializeField] private Refrigerator _refrigerator;

@@ -74,7 +74,6 @@
     <Compile Include="Assets\Scripts\Monster\Monster.cs" />
     <Compile Include="Assets\Scripts\Monster\StateMachine\MonsterStateMachine.cs" />
     <Compile Include="Assets\Scripts\Monster\StateMachine\State.cs" />
-    <Compile Include="Assets\Scripts\Monster\StateMachine\States\AnomalyState.cs" />
     <Compile Include="Assets\Scripts\Monster\StateMachine\States\IdleMonsterState.cs" />
     <Compile Include="Assets\Scripts\Monster\StateMachine\Transition.cs" />
     <Compile Include="Assets\Scripts\Monster\StateMachine\Transitions\TimePassedTransition.cs" />

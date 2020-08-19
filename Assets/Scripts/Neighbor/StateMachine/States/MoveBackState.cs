@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Animator))]
+[RequireComponent(typeof(Neighbor))]
+[RequireComponent(typeof(SpriteRenderer))]
 public class MoveBackState : State
 {
     [SerializeField] private Transform _destinationPoint;

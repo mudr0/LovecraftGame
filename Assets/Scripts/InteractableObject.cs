@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(SpriteRenderer))]
 public class InteractableObject : MonoBehaviour
 {
-
     protected Player Player;
     protected bool IsInteractable = false;
 
